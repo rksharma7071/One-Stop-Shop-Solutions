@@ -315,13 +315,11 @@ a:active {
     .nav ul li a {
         padding: 15px;
         border-bottom: 1px solid #ccc;
-        /* Optional: Add a border between menu items */
     }
 
 
     .header-logo img {
         width: 100px;
-        /* Adjust the width of your logo for smaller screens */
     }
 
     .header-logo h2 {
@@ -334,12 +332,9 @@ a:active {
         border: none;
         font-size: 24px;
         background-color: transparent;
-
     }
 
     .nav-toggle:before {
-        /* content: '\2630'; */
-        /* Hamburger icon Unicode character */
         font-size: 28px;
         color: #000;
     }
@@ -359,5 +354,8 @@ a:active {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         padding: 20px 0px;
+    }
+    .slides .slides-content {
+        width: 65%;
     }
 }
