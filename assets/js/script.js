@@ -68,3 +68,13 @@ const autoPlaySlide = () => {
 window.onload = () => {
     setInterval(autoPlaySlide, 2000);
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav');
+
+    navToggle.addEventListener('click', function () {
+        navMenu.classList.toggle('active');
+    });
+});
