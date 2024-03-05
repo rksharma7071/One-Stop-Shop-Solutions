@@ -58,7 +58,7 @@ a:active {
 
 .nav ul ul {
     display: none;
-    position: static;
+    position: absolute;
     top: auto;
     left: auto;
     border-radius: 8px;
